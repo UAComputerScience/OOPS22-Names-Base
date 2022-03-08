@@ -1,20 +1,22 @@
 /*
     Name.cpp
 
-    Definitions for multi-part names class
+    Definitions for multi-part name class
 */
 
 #include "Name.hpp"
 
 // first, middle, and last name constructor
 Name::Name(std::string_view firstName, std::string_view middleName, std::string_view lastName)
-    : firstName(firstName), hasFirstName(true), middleName(middleName), hasMiddleName(true),
+    : firstName(firstName), hasFirstName(true),
+      middleName(middleName), hasMiddleName(true),
       lastName(lastName), hasLastName(true)
     {}
 
 // first and last name constructor
 Name::Name(std::string_view firstName, std::string_view lastName)
-    : firstName(firstName), hasFirstName(true), lastName(lastName), hasLastName(true)
+    : firstName(firstName), hasFirstName(true),
+      lastName(lastName), hasLastName(true)
     {}
 
 // last name constructor

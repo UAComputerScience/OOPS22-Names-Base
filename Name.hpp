@@ -1,13 +1,13 @@
 /*
     Name.hpp
 
-    Declarations for multi-part names class
+    Declarations for multi-part name class
 */
 
 #ifndef INCLUDED_NAME_HPP
 #define INCLUDED_NAME_HPP
 
-#include <iostream>
+#include <ostream>
 #include <string>
 #include <string_view>
 

@@ -10,16 +10,13 @@
 int main() {
 
     Name fred("Fréd", "Smith");
-    fred.output(std::cout);
-    std::cout << '\n';
+    fred.output(std::cout) << '\n';
 
     Name jane("Jane", "Morris", "Goodall");
-    jane.output(std::cout);
-    std::cout << '\n';
+    jane.output(std::cout) << '\n';
 
-    Name lovejoy("Lovejoy");
-    lovejoy.output(std::cout);
-    std::cout << '\n';
+    Name lovejoy("Sting");
+    lovejoy.output(std::cout) << '\n';
 
     return 0;
 }
